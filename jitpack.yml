@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=opengllib-1.0.0.aar"
+  - mvn install:install-file $FILE -DgroupId=io.github.freestyleddcoder -DartifactId=opengllib -Dversion=1.0.0 -Dpackaging=aar -DpomFile=opengllib-1.0.0.xml
